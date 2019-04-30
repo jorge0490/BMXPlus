@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>BMX PLUS</title>     
+
+    <link href="css/main.css" rel="stylesheet">
+    <!--Estilo de animaciones-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--Estilos para mostrar productos en cards-->
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <!--Llamada a fuente Montserrat-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body id="pagina-arriba" data-spy="scroll" data-target=".navbar-personalizada">
+    <!--Menu de navegación-->
+    <nav class="navbar navbar-personalizada navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only  ">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collpase">
+          <ul class="nav navbar-nav">
+            <li class="pagina-scroll">
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li class="pagina-scroll">
+              <a href="#nosotros">Nosotros</a>
+            </li>
+            <li class="pagina-scroll">
+              <a href="#productos">Productos</a>
+            </li>
+            <li class="pagina-scroll">
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--sección incial de bienvenida-->
+    <section class="intro" id="inicio">
+      <div class="intro-cuerpo">
+        <div class="container">
+          <riv class="row">
+            <div class="col-md-8 col-md-offset-2">
+             <div class="col-md-12">
+                <div class=" logo-central left-block img-responsive">
+                  <img src="img/bmxplus.png" class="img-responsive"></div>  
+              </div>   
+              <!--mensaje con animación-->
+              <p id="intro-texto" class="intro-texto animated fadeInRight retraso-1 "><strong><span class="color-rojo">BMX PLUS</span></strong> Nuevo concepto urbano/extremo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--sección nosotros para indicar información de la empresa-->
+    <section id="nosotros" class="container contenido-seccion">
+      <h2 class="text-center">Nosotros</h2>
+      <br>
+      <div class="row caja">
+        <div class="caja-izquierda col-md-4">
+          <div class="bloque icono-bloque-izquierdo">
+            <div class="contenido-sin-icono">
+               <h3>Somos Profesionales</h3>
+               <p>
+                Nos especializamos en la importación de productos de los más altos estándares de calidad en el rubro de Bicicletas, Repuestos y Accesorios. Poseemos la representación de prestigiosas marcas internacionales que han confiado en nuestra experiencia y profesionalismo.
+               </p>
+            </div>
+          </div>
+        </div>
+        <!--caja central con a nimación-->
+        <div id="caja-central" class="caja-central col-md-4 animated rotateInUpRight retraso-1">
+          <div class="bloque icono-bloque-izquierdo">
+             <div class="icono">
+               <i class="fa fa-money fa-5x"></i>
+             </div>
+             <div class="contenido-icono">
+               <h3>Buenos Precios</h3>
+               <p>
+                Contamos con las mejores ofertas del mercado.
+                <br>
+                Suscribete y obten ofertas semanales, en los mejores productos del mundo BMX.
+                <br>
+                Además aprovecha los descuentos para socios de BMX Plus!
+               </p>
+             </div>
+          </div>
+        </div>
+
+        <div class="caja-derecha col-md-4">
+          <div class="bloque icono-bloque-izquierdo">
+             <div class="contenido-sin-icono">
+               <h3>Encuéntranos</h3>
+               <p>
+                Nuestro local se encuentra en el Barrio San Diego, conocido también como el Barrio de las Bicicletas en la ciudad de Santiago, y distribuimos nuestros productos al por mayor a lo largo de todo Chile.
+               </p>
+             </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--sección comercial para mostrar procuctos-->
+    <section id="productos" class="contenido-seccion text-center">
+      <div class="container">
+        <h2>Nuestros Productos</h2>
+          <div class="row ">
+           <div class=" hidden-xs cuadro col-md-3 col-md-offset-1 ">
+              <img id="bike" src="img/tenor.gif" class="icono-bicicleta img-responsive animated rotateIn retraso-1" >
+            <button class="btn btn-danger boton-bicicleta" >Abrir Todos</button>
+           </div>
+           <div class=" col-md-6 col-md-offset-2">
+              <div class="row">
+                <div class="cuadros col-md-5 col-md-offset-1 col-sm-12">
+                  <div class="card card-default">
+                    <div class="card-body card-6-6">
+                      <div class="card-left">
+                        <img src="img/1.jpg" class="img-responsive">
+                      </div>
+                      <div class="card-right">
+                        <h4>GT</h4>
+                        <p>Slammer</p>
+                      </div>
+                    </div>
+                    <div class="card-body" >
+                      
+                        Marca: Gt
+                        <br>Modelo: SLAMMER
+                        <br>Tipo: Freestyle
+                      
+                    </div>
+                    <div class="card-left precio">
+                        <p>$200.000</p>
+                    </div>
+                    <div class="card-right">
+                        <button class="btn btn-danger boton-comprar">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cuadros col-md-5 col-md-offset-1 col-sm-12">
+                  <div class="card card-default">
+                    <div class="card-body card-6-6">
+                      <div class="card-left">
+                        <img src="img/2.jpg" class="img-responsive">
+                      </div>
+                      <div class="card-right">
+                        <h4>GT</h4>
+                        <p>GT AIR2</p>
+                      </div>
+                    </div>
+                    <div class="card-body" >
+                  
+                        Marca: Gt
+                        <br>Modelo: GT AIR2
+                        <br>Tipo: Freestyle
+                      
+                    </div>
+                    <div class="card-left precio">
+                        <p>$189.000</p>
+                    </div>
+                    <div class="card-right">
+                        <button class="btn btn-danger boton-comprar">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cuadros col-md-5 col-md-offset-1 col-sm-12">
+                  <div class="card card-default">
+                    <div class="card-body card-6-6">
+                      <div class="card-left">
+                        <img src="img/3.jpg" class="img-responsive">
+                      </div>
+                      <div class="card-right">
+                        <h4>WTP</h4>
+                        <p>Arcade</p>
+                      </div>
+                    </div>
+                    <div class="card-body" >
+                      
+                        Marca: We the people
+                        <br>Modelo: Arcade
+                        <br>Tipo: Freestyle
+                      
+                    </div>
+                    <div class="card-left precio">
+                        <p>$410.000</p>
+                    </div>
+                    <div class="card-right">
+                        <button class="btn btn-danger boton-comprar">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cuadros1 col-md-5 col-md-offset-1 col-sm-12">
+                  <div class="card card-default">
+                    <div class="card-body card-6-6">
+                      <div class="card-left">
+                        <img src="img/4.jpg" class="img-responsive">
+                      </div>
+                      <div class="card-right">
+                        <h4>WTP</h4>
+                        <p>Crysis</p>
+                      </div>
+                    </div>
+                    <div class="card-body" >
+                      
+                        Marca: We the people
+                        <br>Modelo: Crysis
+                        <br>Tipo: Freestyle
+                      
+                    </div>
+                    <div class="card-left precio">
+                        <p>$510.000</p>
+                    </div>
+                    <div class="card-right">
+                        <button class="btn btn-default boton-comprar">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!--sección de contacto-->
+    <section id="contacto" class="container contenido-seccion">
+      <div id="formulario" class="row animated fadeInRight retraso-1">
+        <div class="col-md-4 col-md-offset-4">
+          <h2 class="text-center animated fadeInRight retraso-1">Contacto</h2>
+            <form action="" class="">
+              <br>
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-control" id="email" type="text" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+              <button class="btn btn-danger">Enviar</button>
+            </form>
+        </div>
+      </div>
+    </section>
+<!--sección footer-->
+    <section id="footer">
+      <div class="container">
+         <div class="col-md-12">
+            <div  class=" icono-footer center-block img-responsive">
+              <img src="img/bmxplus.png" class="img-responsive img-rounded" alt=""></div>  
+          </div> 
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>    
+
+  </body>
+</html>
